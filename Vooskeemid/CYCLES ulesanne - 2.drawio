@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="Cl0xAZdWnsx92NAkoAC8">
+    <mxGraphModel dx="464" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-1" value="// 2. &quot;pikenda sõnumit&quot;&#xa; // tee muutuja &quot;sõnum&quot; mille sees on tühi string, nt &quot;&quot;&#xa; // kirjuta do while tsükkel&#xa; // tsükli tegevusena küsi kasutajalt sõnumile lisa &quot;palun lisa järgmine sõnumi osa&#xa; // lisa muutujasse &quot;sõnum&quot; kasutaja poolt tehtud sisestus&#xa; // kuva muutuja &quot;sõnum&quot; välja&#xa; // -&gt; do while tsükli tingimuseks kirjuta kontroll, mis kontrollib muutuja &quot;sõnum&quot; pikkust .Length abil, kui sõnum on pikem kui 140 tähte, siis tsükkel lõppeb&#xa; // peale tsüklit kuva sõnum &quot;see sõnum enam twitterisse ei mahuks, kirjuta vähem fam&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="560" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-2" target="pcvIlaOV0SQwk_kzn8Wn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-2" value="Algus" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="124" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-3" target="pcvIlaOV0SQwk_kzn8Wn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-3" value="Tekitame muutuja &quot;sõnum&quot; mille siise omistame algväärtusena tühja sõne, või &quot;&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="370" width="249" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-5" target="pcvIlaOV0SQwk_kzn8Wn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-5" value="kuva kasutajale tekst &quot;palun lisa järgmine sõnumi osa&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="226.5" y="490" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-7" target="pcvIlaOV0SQwk_kzn8Wn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-7" value="oota,kuni kastuja sisestab midagi käsuseale, mis lisatakse muutujasse &quot;sõnum2 juurde olemasolevale väärtusele" style="whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="237" y="600" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-9" target="pcvIlaOV0SQwk_kzn8Wn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-9" value="kuva kasutaja muutujas &quot;sõnum&quot; olev väärtus." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="251.5" y="710" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432" y="880" as="sourcePoint" />
+            <mxPoint x="466.5" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="880" />
+              <mxPoint x="530" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-16" value="jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pcvIlaOV0SQwk_kzn8Wn-15">
+          <mxGeometry x="-0.8504" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-11" target="pcvIlaOV0SQwk_kzn8Wn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-11" value="kas muutujasse &quot;sõnum2 olev väärtus on pikem kui 140 tähte" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="272" y="840" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcvIlaOV0SQwk_kzn8Wn-17" target="pcvIlaOV0SQwk_kzn8Wn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-17" value="kuva kasutaja tekst2 see sõnum enam twitterese ei mahuks, kirjuta vähem fäm&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="232" y="950" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcvIlaOV0SQwk_kzn8Wn-19" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1080" width="138" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

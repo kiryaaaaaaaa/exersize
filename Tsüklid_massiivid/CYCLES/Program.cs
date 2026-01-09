@@ -22,14 +22,26 @@
             } while (täisArv > -31);
             Console.WriteLine("Tsükkel lõppes");
 
-                   // 2. "pikenda sõnumit"
-                    // tee muutuja "sõnum" mille sees on tühi string, nt ""
-                    // kirjuta do while tsükkel
-                    // tsükli tegevusena küsi kasutajalt sõnumile lisa "palun lisa järgmine sõnumi osa
-                    // lisa muutujasse "sõnum" kasutaja poolt tehtud sisestus
-                    // kuva muutuja "sõnum" välja
-                    // -> do while tsükli tingimuseks kirjuta kontroll, mis kontrollib muutuja "sõnum" pikkust .Length abil, kui sõnum on pikem kui 140 tähte, siis tsükkel lõppeb
-                    // peale tsüklit kuva sõnum "see sõnum enam twitterisse ei mahuks, kirjuta vähem fam"
+            // 2. "pikenda sõnumit"
+            // tee muutuja "sõnum" mille sees on tühi string, nt ""
+            // kirjuta do while tsükkel
+            // tsükli tegevusena küsi kasutajalt sõnumile lisa "palun lisa järgmine sõnumi osa
+            // lisa muutujasse "sõnum" kasutaja poolt tehtud sisestus
+            // kuva muutuja "sõnum" välja
+            // -> do while tsükli tingimuseks kirjuta kontroll, mis kontrollib muutuja "sõnum" pikkust .Length abil, kui sõnum on pikem kui 140 tähte, siis tsükkel lõppeb
+            // peale tsüklit kuva sõnum "see sõnum enam twitterisse ei mahuks, kirjuta vähem fam"
+
+            string sõnum = "";
+            do
+            {
+                Console.WriteLine("Palun lisa järgmine sõnumi osa");
+                sõnum += Console.ReadLine();
+                Console.WriteLine(sõnum);
+            } while (sõnum.Length < 140);
+            Console.WriteLine("see sõnum enam twitterise ei mahuks, kitjuta vähem fäm.");
+
+
+
 
                     /* While ülesanded*/
 
@@ -85,7 +97,7 @@
                     // kui sisemine tsükkel on lõpetanud, siis kuva kasutajale see rida välja
                     // kui ka esimene tsükkel on lõpetanud, siis kuva kasutajale tekst "tsüklid on lõpetanud"
                     int ruuduKülg = 0;
-            Console.WriteLine("kui suurt ruutu sa tahad");
+                    Console.WriteLine("kui suurt ruutu sa tahad");
 
             /* Foreach + list ülesanded */
 
